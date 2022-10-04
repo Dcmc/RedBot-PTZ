@@ -9,7 +9,7 @@ from redbot.core import commands
 
 log = logging.getLogger("red.cbd-cogs.tube")
 
-class PTZController(commands.Cog): 
+class PTZ(commands.Cog): 
 	@commands.command()
 	async def lookUp():
 		requests.get('http://10.10.0.19:8888/press/bank/1/3')
