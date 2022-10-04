@@ -13,7 +13,7 @@ class PTZ(commands.Cog):
 	"""My custom cog"""
 
     def __init__(self, bot):
-        self.bot = bot
+		self.bot = bot
 	
 	@commands.command()
 	async def lookUp():
